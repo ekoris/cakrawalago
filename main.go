@@ -47,5 +47,5 @@ func main() {
 	router := server.Group("/api")
 	MasterRouteController.SetupRoutes(router)
 	AccountUserRouteController.SetupRoutes(router)
-	log.Fatal(server.Run(":8080"))
+	log.Fatal(server.Run(":8000"))
 }
